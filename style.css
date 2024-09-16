@@ -224,8 +224,16 @@ main {
 	}
 }
 @media (min-width: 1120px) {
+	body {
+		display: flex;
+		justify-content: center;
+	}
 	header {
-		margin-bottom: 42px;
+		display: none;
+	}
+	.app {
+		max-width: 1120px;
+		margin-top: 1rem;
 	}
 	.title {
 		display: flex;
